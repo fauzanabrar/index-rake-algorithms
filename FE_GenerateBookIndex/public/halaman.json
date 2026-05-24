@@ -1,0 +1,16 @@
+[
+    // sebagai komenan saja, JANGAN LUPA hapus baris ini (yang diawali dengan "//") sebelum menguploadnya ke web
+    // jumlah objek di bawah ini ada 3, tetapi anda bebas mengeditnya sesuai kebutuhan dengan melakukan copy-paste
+    // "f" -> "first" -> nomor halaman pertama dari bab/section: yang dimaksud nomor halaman di sini yaitu yang tertera pada halaman tersebut (yang diberikan oleh penulis buku, tanpa peduli urutan ke-berapakah halaman tersebut dari keseluruhan buku)
+    // "l" -> "last" -> nomor halaman terakhir dari bab/section
+    // "d" -> "difference" -> yaitu selisih antara "nomor halaman" dalam bab/section tersebut, dengan "urutan halaman" (urutan ke berapa halaman tersebut sebenarnya dari keseluruhan file PDF)
+    {
+        "f": , "l": , "d": 
+    },
+    {
+        "f": , "l": , "d": 
+    },
+    {
+        "f": , "l": , "d": 
+    },
+]

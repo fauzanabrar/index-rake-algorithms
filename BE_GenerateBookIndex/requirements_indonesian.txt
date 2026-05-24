@@ -1,0 +1,24 @@
+# Existing dependencies
+flask==2.3.2
+flask-cors==4.0.0
+PyPDF2==3.0.1
+# Align with docxtpl requirements; fixes Section.part errors
+python-docx>=1.1.1
+nltk==3.8.1
+torch==2.9.1
+numpy>=2.1,<2.4
+
+# Indonesian language support
+# Note: FastText is optional - system will work with fallback approach
+# Uncomment below if you want to install FastText (requires C++ compiler)
+# fasttext==0.9.2
+
+# Indonesian NLP library
+sastrawi==1.0.1
+docxtpl==0.20.1
+
+# Installation instructions:
+# 1. Install this requirements file: pip install -r requirements_indonesian.txt
+# 2. (Optional) For better Indonesian embeddings, install FastText:
+#    - On Windows: Install Visual Studio Build Tools first
+#    - Then: pip install fasttext

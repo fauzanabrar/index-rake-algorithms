@@ -1,0 +1,113 @@
+# ============================================================
+# Python / Backend
+# ============================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env.bak
+
+# Environment variables (keep .env.example if you have one)
+.env
+*.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+nosetests.xml
+
+# mypy / pyright / type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / JetBrains
+.idea/
+
+# ============================================================
+# Node.js / Frontend
+# ============================================================
+
+node_modules/
+.npm
+
+# Next.js build output
+FE_GenerateBookIndex/.next/
+FE_GenerateBookIndex/out/
+
+# Next.js cache
+FE_GenerateBookIndex/.next/cache/
+
+# Vercel
+.vercel
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# ============================================================
+# Generated / Output files
+# ============================================================
+
+# Generated Word documents (output of the app)
+generatedFile.docx
+
+# User-uploaded PDFs and JSONs (runtime input, not source)
+BE_GenerateBookIndex/userinput/*.pdf
+BE_GenerateBookIndex/userinput/*.json
+
+# ============================================================
+# OS / Editor
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ============================================================
+# Logs & temp files
+# ============================================================
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
